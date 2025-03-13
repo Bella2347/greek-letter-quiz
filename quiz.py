@@ -38,7 +38,7 @@ def run_quiz(questions):
     print("\nWelcome to the 'Which Greek Letter Are You?' Quiz!\n")
     for i, (question, choices) in enumerate(questions.items(), 1):
         clear()
-        print(f"\n{i}. {question}")
+        print(f"\n{i}. {question}\n")
         for choice in choices:
             print(choice)
 
