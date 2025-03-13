@@ -4,11 +4,11 @@
         "group": "🔥 The Bold Leaders 🔥",
         "personality": "Confident, ambitious, and natural-born leaders. Alphas take charge, thrive in competition, and inspire others with their determination.",
         "answers": {
-            "A": 1.0,
-            "B": 0.0,
-            "C": 0.0,
-            "D": 0.0,
-            "E": 0.0
+            "A": 0.68838884,
+            "B": 0.14070721,
+            "C": 0.01085426,
+            "D": 0.13250137,
+            "E": 0.02754831
         }
     },
     "Sigma (Σ)": {
@@ -16,11 +16,11 @@
         "group": "🔥 The Bold Leaders 🔥",
         "personality": "Independent and mysterious, Sigmas walk their own path. They’re highly intelligent and prefer working alone rather than leading a crowd.",
         "answers": {
-            "A": 0.7,
-            "B": 0.0,
-            "C": 0.3,
-            "D": 0.0,
-            "E": 0.0
+            "A": 0.65018744,
+            "B": 0.05935593,
+            "C": 0.04269207,
+            "D": 0.13301994,
+            "E": 0.11474462
         }
     },
     "Tau (Τ)": {
@@ -28,11 +28,11 @@
         "group": "🔥 The Bold Leaders 🔥",
         "personality": "Brave, direct, and action-driven. Taus never back down from a challenge and are always pushing forward, no matter the obstacles.",
         "answers": {
-            "A": 0.7,
-            "B": 0.0,
-            "C": 0.0,
-            "D": 0.3,
-            "E": 0.0
+            "A": 0.63912704,
+            "B": 0.14129057,
+            "C": 0.1158835,
+            "D": 0.06376066,
+            "E": 0.03993824
         }
     },
     "Omega (Ω)": {
@@ -40,11 +40,11 @@
         "group": "🔥 The Bold Leaders 🔥",
         "personality": "Unconventional and strong-willed, Omegas don’t follow the crowd. They embrace their uniqueness and thrive in adversity.",
         "answers": {
-            "A": 0.7,
-            "B": 0.0,
-            "C": 0.0,
-            "D": 0.0,
-            "E": 0.3
+            "A": 0.59124755,
+            "B": 0.00346733,
+            "C": 0.16262856,
+            "D": 0.0957379,
+            "E": 0.14691867
         }
     },
     "Beta (Β)": {
@@ -52,11 +52,11 @@
         "group": "🧠 The Intellectuals 🧠",
         "personality": "Logical, analytical, and curious. Betas love learning, problem-solving, and diving deep into intellectual challenges.",
         "answers": {
-            "A": 0.0,
-            "B": 1.0,
-            "C": 0.0,
-            "D": 0.0,
-            "E": 0.0
+            "A": 0.04763083,
+            "B": 0.82518078,
+            "C": 0.04495005,
+            "D": 0.01551942,
+            "E": 0.06671892
         }
     },
     "Delta (Δ)": {
@@ -64,11 +64,11 @@
         "group": "🧠 The Intellectuals 🧠",
         "personality": "Deep and introspective, Deltas question everything and seek meaning in the world. They are great at seeing patterns others miss.",
         "answers": {
-            "A": 0.0,
-            "B": 0.7,
-            "C": 0.3,
-            "D": 0.0,
-            "E": 0.0
+            "A": 0.08695395,
+            "B": 0.6331749,
+            "C": 0.08280432,
+            "D": 0.0395596,
+            "E": 0.15750723
         }
     },
     "Psi (Ψ)": {
@@ -76,11 +76,11 @@
         "group": "🧠 The Intellectuals 🧠",
         "personality": "Creative, philosophical, and ahead of their time. Psis think beyond the present and explore ideas that others might not understand yet.",
         "answers": {
-            "A": 0.0,
-            "B": 0.7,
-            "C": 0.0,
-            "D": 0.3,
-            "E": 0.0
+            "A": 0.12377979,
+            "B": 0.60970736,
+            "C": 0.13867505,
+            "D": 0.120472,
+            "E": 0.0073658
         }
     },
     "Pi (Π)": {
@@ -88,11 +88,11 @@
         "group": "🧠 The Intellectuals 🧠",
         "personality": "Detail-oriented and precise, Pis are methodical and hardworking. They excel in structured environments and have a strong work ethic.",
         "answers": {
-            "A": 0.0,
-            "B": 0.7,
-            "C": 0.0,
-            "D": 0.0,
-            "E": 0.3
+            "A": 0.16257262,
+            "B": 0.52150243,
+            "C": 0.00213811,
+            "D": 0.1550902,
+            "E": 0.15869664
         }
     },
     "Gamma (Γ)": {
@@ -100,11 +100,11 @@
         "group": "💙 The Social Connectors 💙",
         "personality": "Energetic, fun-loving, and full of charisma. Gammas light up any room and bring people together effortlessly.",
         "answers": {
-            "A": 0.3,
-            "B": 0.0,
-            "C": 0.7,
-            "D": 0.0,
-            "E": 0.0
+            "A": 0.12073909,
+            "B": 0.0207036,
+            "C": 0.75690549,
+            "D": 0.06228865,
+            "E": 0.03936316
         }
     },
     "Lambda (Λ)": {
@@ -112,11 +112,11 @@
         "group": "💙 The Social Connectors 💙",
         "personality": "Expressive, creative, and deeply emotional. Lambdas channel their feelings into their art, music, or storytelling.",
         "answers": {
-            "A": 0.0,
-            "B": 0.3,
-            "C": 0.7,
-            "D": 0.0,
-            "E": 0.0
+            "A": 0.00818488,
+            "B": 0.0916136,
+            "C": 0.6829912,
+            "D": 0.0905007,
+            "E": 0.12670962
         }
     },
     "Omicron (Ο)": {
@@ -124,11 +124,11 @@
         "group": "💙 The Social Connectors 💙",
         "personality": "Balanced and fair-minded, Omicrons are great mediators who bring people together and solve conflicts with ease.",
         "answers": {
-            "A": 0.0,
-            "B": 0.0,
-            "C": 0.7,
-            "D": 0.3,
-            "E": 0.0
+            "A": 0.05248259,
+            "B": 0.04380583,
+            "C": 0.65831823,
+            "D": 0.15470053,
+            "E": 0.09069282
         }
     },
     "Rho (Ρ)": {
@@ -136,11 +136,11 @@
         "group": "💙 The Social Connectors 💙",
         "personality": "Compassionate and understanding, Rhos deeply connect with others and often take on the emotions of those around them.",
         "answers": {
-            "A": 0.0,
-            "B": 0.0,
-            "C": 0.7,
-            "D": 0.0,
-            "E": 0.3
+            "A": 0.13289054,
+            "B": 0.1279833,
+            "C": 0.57553258,
+            "D": 0.09498993,
+            "E": 0.06860365
         }
     },
     "Epsilon (Ε)": {
@@ -148,11 +148,11 @@
         "group": "🏗️ The Steady Workers 🏗️",
         "personality": "Loyal, dependable, and always there when you need them. Epsilons are the backbone of any group, making sure things get done.",
         "answers": {
-            "A": 0.3,
-            "B": 0.0,
-            "C": 0.0,
-            "D": 0.7,
-            "E": 0.0
+            "A": 0.0333294,
+            "B": 0.04157782,
+            "C": 0.1171129,
+            "D": 0.7535329,
+            "E": 0.05444698
         }
     },
     "Zeta (Ζ)": {
@@ -160,11 +160,11 @@
         "group": "🏗️ The Steady Workers 🏗️",
         "personality": "Resourceful and pragmatic, Zetas focus on real-world solutions and know how to turn ideas into reality.",
         "answers": {
-            "A": 0.0,
-            "B": 0.3,
-            "C": 0.0,
-            "D": 0.7,
-            "E": 0.0
+            "A": 0.05470399,
+            "B": 0.11099575,
+            "C": 0.05702684,
+            "D": 0.60703286,
+            "E": 0.17024056
         }
     },
     "Kappa (Κ)": {
@@ -172,11 +172,11 @@
         "group": "🏗️ The Steady Workers 🏗️",
         "personality": "Disciplined and patient, Kappas believe in persistence. They don’t rush, but they always reach their goals.",
         "answers": {
-            "A": 0.0,
-            "B": 0.0,
-            "C": 0.3,
-            "D": 0.7,
-            "E": 0.0
+            "A": 0.10187405,
+            "B": 0.15075393,
+            "C": 0.02040942,
+            "D": 0.5882653,
+            "E": 0.1386973
         }
     },
     "Mu (Μ)": {
@@ -184,11 +184,11 @@
         "group": "🏗️ The Steady Workers 🏗️",
         "personality": "Quiet but powerful, Mus don’t seek attention but their presence is deeply felt. They work behind the scenes and make things happen.",
         "answers": {
-            "A": 0.0,
-            "B": 0.0,
-            "C": 0.0,
-            "D": 0.7,
-            "E": 0.3
+            "A": 0.14067626,
+            "B": 0.05399879,
+            "C": 0.16017498,
+            "D": 0.5838116,
+            "E": 0.06133838
         }
     },
     "Nu (Ν)": {
@@ -196,11 +196,11 @@
         "group": "🏗️ The Steady Workers 🏗️",
         "personality": "Thoughtful and introspective, Nus often reflect on life’s big questions and have a calm, wise aura.",
         "answers": {
-            "A": 0.1,
-            "B": 0.1,
-            "C": 0.1,
-            "D": 0.7,
-            "E": 0.0
+            "A": 0.05926916,
+            "B": 0.12485078,
+            "C": 0.13960199,
+            "D": 0.57283402,
+            "E": 0.10344406
         }
     },
     "Iota (Ι)": {
@@ -208,11 +208,11 @@
         "group": "🏗️ The Steady Workers 🏗️",
         "personality": "Simple, efficient, and focused. Iotas don’t waste time on unnecessary things—they value what truly matters.",
         "answers": {
-            "A": 0.0,
-            "B": 0.1,
-            "C": 0.1,
-            "D": 0.7,
-            "E": 0.1
+            "A": 0.14800106,
+            "B": 0.08699932,
+            "C": 0.12527577,
+            "D": 0.50813605,
+            "E": 0.1315878
         }
     },
     "Theta (Θ)": {
@@ -220,11 +220,11 @@
         "group": "⚡ The Unpredictable Wildcards ⚡",
         "personality": "Unpredictable and highly creative, Thetas think outside the box and challenge the status quo.",
         "answers": {
-            "A": 0.3,
-            "B": 0.0,
-            "C": 0.0,
-            "D": 0.0,
-            "E": 0.7
+            "A": 0.10693122,
+            "B": 0.01329076,
+            "C": 0.02234304,
+            "D": 0.02751012,
+            "E": 0.82992485
         }
     },
     "Eta (Η)": {
@@ -232,11 +232,11 @@
         "group": "⚡ The Unpredictable Wildcards ⚡",
         "personality": "Spontaneous and adventurous, Etas follow their heart and seek new experiences without fear of the unknown.",
         "answers": {
-            "A": 0.0,
-            "B": 0.3,
-            "C": 0.0,
-            "D": 0.0,
-            "E": 0.7
+            "A": 0.12184314,
+            "B": 0.02919066,
+            "C": 0.1215899,
+            "D": 0.08452744,
+            "E": 0.64284886
         }
     },
     "Xi (Ξ)": {
@@ -244,11 +244,11 @@
         "group": "⚡ The Unpredictable Wildcards ⚡",
         "personality": "Witty, mischievous, and always one step ahead. Xis love surprises, puzzles, and playing with ideas.",
         "answers": {
-            "A": 0.0,
-            "B": 0.0,
-            "C": 0.3,
-            "D": 0.0,
-            "E": 0.7
+            "A": 0.01423714,
+            "B": 0.14836413,
+            "C": 0.15061324,
+            "D": 0.0528512,
+            "E": 0.6339343
         }
     },
     "Chi (Χ)": {
@@ -256,11 +256,11 @@
         "group": "⚡ The Unpredictable Wildcards ⚡",
         "personality": "Energetic and unconventional, Chis thrive in unpredictability and love shaking things up just to see what happens.",
         "answers": {
-            "A": 0.0,
-            "B": 0.0,
-            "C": 0.0,
-            "D": 0.3,
-            "E": 0.7
+            "A": 0.09486081,
+            "B": 0.06474658,
+            "C": 0.08878813,
+            "D": 0.16187607,
+            "E": 0.58972842
         }
     },
     "Phi (Φ)": {
@@ -268,11 +268,11 @@
         "group": "⚡ The Unpredictable Wildcards ⚡",
         "personality": "Idealistic and full of imagination, Phis see beauty in the world that others often overlook.",
         "answers": {
-            "A": 0.1,
-            "B": 0.1,
-            "C": 0.1,
-            "D": 0.0,
-            "E": 0.7
+            "A": 0.1493027,
+            "B": 0.13170854,
+            "C": 0.04630048,
+            "D": 0.09874245,
+            "E": 0.57394584
         }
     },
     "Upsilon (Υ)": {
@@ -280,11 +280,11 @@
         "group": "⚡ The Unpredictable Wildcards ⚡",
         "personality": "Impossible to categorize, Upsilons are a mix of everything. They follow their own logic and embrace life's randomness.",
         "answers": {
-            "A": 0.0,
-            "B": 0.1,
-            "C": 0.1,
-            "D": 0.1,
-            "E": 0.7
+            "A": 0.03550515,
+            "B": 0.09131825,
+            "C": 0.16317289,
+            "D": 0.14024194,
+            "E": 0.56976177
         }
     }
 }
