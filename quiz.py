@@ -1,4 +1,5 @@
 import json
+import os
 
 
 def quiz():
@@ -30,11 +31,12 @@ def load_personalities():
 
 def run_quiz(questions, answer_options):
     # Store answers
-    answers = {}
+    answers = []
 
     # Run the quiz
     print("\nWelcome to the 'Which Greek Letter Are You?' Quiz!\n")
     for i, (question, choices) in enumerate(questions.items(), 1):
+        os.system("clear")
         print(f"\n{i}. {question}")
         for choice in choices:
             print(choice)
@@ -46,10 +48,11 @@ def run_quiz(questions, answer_options):
                 .upper()
             )
             if answer in answer_options:
-                answers[i] = answer
+                answers.append(answer)
                 break
             else:
                 print("Invalid input. Please enter A, B, C, D, or E.")
+
     return answers
 
 
@@ -57,8 +60,11 @@ def get_personality_matches(personalities, answers):
     # Determine the most frequent answer
     personality_matches = {}
     for letter, letter_dict in personalities.items():
-        matches = sum(1 for a, b in zip(letter_dict["answers"], answers))
+        matches = sum(
+            1 for a, b in zip(letter_dict["answers"], answers) if a == b
+        )
         personality_matches[letter] = matches
+
     return personality_matches
 
 
