@@ -8,8 +8,8 @@ ANSWER_OPTIONS = ["A", "B", "C", "D", "E"]
 
 def quiz():
     questions = load_questions()
-    # answers = run_quiz(questions)
-    answers = ["B", "C", "D", "E", "C", "B", "C", "D", "E", "C"]
+    answers = run_quiz(questions)
+
     personalities = load_personalities()
     personality_matches = get_personality_matches(personalities, answers)
     best_personality_match = get_personality(personality_matches)
