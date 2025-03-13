@@ -18,14 +18,14 @@ def quiz():
 
 def load_questions():
     # Questions and answer choices
-    with open("config/questions.json", "r") as f:
+    with open("config/questions.json", "r", encoding="utf-8") as f:
         questions = json.load(f)
 
     return questions
 
 
 def load_personalities():
-    with open("config/personalities.json", "r") as f:
+    with open("config/personalities.json", "r", encoding="utf-8") as f:
         personalities = json.load(f)
     return personalities
 
@@ -37,7 +37,7 @@ def run_quiz(questions):
     # Run the quiz
     print("\nWelcome to the 'Which Greek Letter Are You?' Quiz!\n")
     for i, (question, choices) in enumerate(questions.items(), 1):
-        os.system("clear")
+        clear()
         print(f"\n{i}. {question}")
         for choice in choices:
             print(choice)
@@ -58,6 +58,11 @@ def run_quiz(questions):
 
     return answers
 
+def clear():
+    if os.name == 'nt':  # For Windows
+        os.system('cls')
+    else:  # For Unix-based systems (Linux/macOS)
+        os.system('clear')
 
 def get_personality_matches(personalities, answers):
     # Determine the most frequent answer
