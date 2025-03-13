@@ -1,11 +1,15 @@
 import json
 import os
+import math
+
+# Mapping answer choices to Greek letter groups
+ANSWER_OPTIONS = ["A", "B", "C", "D", "E"]
 
 
 def quiz():
-    questions, answer_options = load_questions()
-    answers = run_quiz(questions, answer_options)
-
+    questions = load_questions()
+    # answers = run_quiz(questions)
+    answers = ["B", "C", "D", "E", "C", "B", "C", "D", "E", "C"]
     personalities = load_personalities()
     personality_matches = get_personality_matches(personalities, answers)
     best_personality_match = get_personality(personality_matches)
@@ -17,10 +21,7 @@ def load_questions():
     with open("config/questions.json", "r") as f:
         questions = json.load(f)
 
-    # Mapping answer choices to Greek letter groups
-    answer_options = ["A", "B", "C", "D", "E"]
-
-    return questions, answer_options
+    return questions
 
 
 def load_personalities():
@@ -29,7 +30,7 @@ def load_personalities():
     return personalities
 
 
-def run_quiz(questions, answer_options):
+def run_quiz(questions):
     # Store answers
     answers = []
 
@@ -43,33 +44,43 @@ def run_quiz(questions, answer_options):
 
         while True:
             answer = (
-                input("\nEnter your choice (A, B, C, D, or E): ")
+                input(f"\nEnter your choice ({', '.join(ANSWER_OPTIONS)}): ")
                 .strip()
                 .upper()
             )
-            if answer in answer_options:
+            if answer in ANSWER_OPTIONS:
                 answers.append(answer)
                 break
             else:
-                print("Invalid input. Please enter A, B, C, D, or E.")
+                print(
+                    f"Invalid input. Please enter {', '.join(ANSWER_OPTIONS)}."
+                )
 
     return answers
 
 
 def get_personality_matches(personalities, answers):
     # Determine the most frequent answer
+    answer_distribution = {
+        option: answers.count(option) / len(answers)
+        for option in ANSWER_OPTIONS
+    }
+
     personality_matches = {}
     for letter, letter_dict in personalities.items():
-        matches = sum(
-            1 for a, b in zip(letter_dict["answers"], answers) if a == b
+        distance = math.sqrt(
+            sum(
+                (letter_dict["answers"][opt] - answer_distribution[opt]) ** 2
+                for opt in ANSWER_OPTIONS
+            )
         )
-        personality_matches[letter] = matches
+        personality_matches[letter] = distance
 
     return personality_matches
 
 
 def get_personality(personality_matches):
-    best_personality_match = max(
+    best_personality_match = min(
         personality_matches, key=personality_matches.get
     )
     return best_personality_match
